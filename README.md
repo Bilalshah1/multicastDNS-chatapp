@@ -1,7 +1,7 @@
 # multicastDNS based chatapp
 
 ## Overview
-This project is a machine learning-based load balancer with a web interface. It consists of a backend (Node.js/Express) and a frontend (Next.js/React). The backend supports device registration, file uploads, and real-time communication via WebSockets. The frontend provides a user-friendly interface for interacting with the backend.
+This project is a multicast DNS (mDNS)-based local area chat application. It includes a backend built with Node.js and Express, and a frontend developed in Next.js with React. The application enables real-time communication and device discovery within the same local network without requiring a centralized server or manual IP configuration.
 
 ## Features
 - Device registration and discovery (using mDNS/Bonjour for LAN)
