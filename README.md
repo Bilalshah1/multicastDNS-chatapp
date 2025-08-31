@@ -8,21 +8,14 @@ LocalNet is a multicast DNS (mDNS)-based local area network chat application tha
 
 ## Features
 
-- **🔍 Automatic Device Discovery**: Uses mDNS/Bonjour protocol for automatic device detection on LAN
-- **💬 Real-time Messaging**: Instant communication via WebSockets (Socket.io)
-- **📁 File Upload & Sharing**: Support for images, PDFs, text files, and documents (Max 10MB)
-- **🌐 Cross-Platform**: Works on desktop, mobile, and web browsers
-- **🔒 Local Network Only**: Secure communication within your local network
-- **📱 Modern UI**: Clean, responsive interface built with React/Next.js
-- **🚀 Zero Configuration**: No manual IP setup required
+- ** Automatic Device Discovery**: Uses mDNS/Bonjour protocol for automatic device detection on LAN
+- ** Real-time Messaging**: Instant communication via WebSockets (Socket.io)
+- ** File Upload & Sharing**: Support for images, PDFs, text files, and documents (Max 10MB)
+- ** Cross-Platform**: Works on desktop, mobile, and web browsers
+- ** Local Network Only**: Secure communication within your local network
+- ** Modern UI**: Clean, responsive interface built with React/Next.js
+- ** Zero Configuration**: No manual IP setup required
 
-## Screenshots
-
-The application features a clean interface with:
-- Device discovery panel showing all connected devices
-- Real-time chat with message history
-- File upload functionality with drag-and-drop support
-- Network status indicators
 
 ## Project Structure
 
@@ -200,25 +193,7 @@ npm test
    - Check if ports are blocked by firewall
    - Verify network connectivity
 
-### Debug Mode
 
-Enable debug logging:
-
-```bash
-# Backend
-DEBUG=localnet:* node server.js
-
-# Frontend
-npm run dev -- --debug
-```
-
-## Limitations
-
-- **Local Network Only**: mDNS/Bonjour device discovery only works within the same LAN
-- **No Internet Support**: Cannot communicate across different networks or over the internet
-- **File Storage**: Files are stored locally on the backend server
-- **Session Persistence**: Chat history is not permanently stored
-- **Concurrent Users**: Performance may vary with many simultaneous users
 
 ## Security Considerations
 
@@ -227,16 +202,6 @@ npm run dev -- --debug
 - File uploads should be scanned for malicious content in production
 - Consider implementing user authentication for sensitive environments
 
-## Future Enhancements
-
-- [ ] End-to-end encryption for messages
-- [ ] Persistent chat history with database integration
-- [ ] User profiles and avatars
-- [ ] Voice/video calling capabilities
-- [ ] Mobile app versions (iOS/Android)
-- [ ] File encryption for uploads
-- [ ] Group chat rooms
-- [ ] Message threading and replies
 
 ## Contributing
 
